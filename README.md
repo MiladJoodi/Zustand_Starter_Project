@@ -2,6 +2,8 @@
 
 This is a simple starter project built with **Next.js 14.2** and **Zustand**. It provides a foundational setup to help you quickly get started with state management in Next.js applications. 
 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/otcldhhriyjpsbsciax0.png)
+
 ## Features
 
 - **State Management**: Uses [Zustand](https://github.com/pmndrs/zustand) for lightweight and scalable state management.
