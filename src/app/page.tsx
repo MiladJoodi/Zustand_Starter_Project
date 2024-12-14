@@ -29,7 +29,7 @@ export default function Home() {
 
 
       <br />
-      <h1>Counter: {counterStore.counter}</h1>
+      <h1>Counter: {counterStore.getLatestCountDivided2()}</h1>
       <button className="bg-blue-500 rounded-md text-white p-2" onClick={counterStore.increment}>
         Increment
       </button>
