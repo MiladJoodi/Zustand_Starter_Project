@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Zustand Starter Project
 
-## Getting Started
+This is a simple starter project built with **Next.js 14.2** and **Zustand**. It provides a foundational setup to help you quickly get started with state management in Next.js applications. 
 
-First, run the development server:
+## Features
+
+- **State Management**: Uses [Zustand](https://github.com/pmndrs/zustand) for lightweight and scalable state management.
+- **Local Storage Persistence**: Includes the capability to persist state to `localStorage`.
+- **Multiple Branches**:
+  - `main`: Basic Zustand implementation.
+  - `persist`: Zustand with localStorage persistence.
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/MiladJoodi/Zustand_Starter_Project.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Zustand_Starter_Project
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
+
+## Branches
+
+### Main Branch
+The main branch contains a basic implementation of Zustand to manage state efficiently in a Next.js environment.
+
+### Persist Branch
+The `persist` branch adds functionality to persist state in `localStorage`, ensuring that your state remains intact even after a page refresh.
+
+To switch to the `persist` branch, run the following command:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git checkout persist
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contribution
+Feel free to open issues or submit pull requests for any improvements or suggestions. Contributions are always welcome!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Repository
+Check out the project on GitHub:
+[Zustand Starter Project](https://github.com/MiladJoodi/Zustand_Starter_Project)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Happy coding! 🚀
